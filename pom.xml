@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>it.inspired</groupId>
+	<artifactId>commons</artifactId>
+	<version>1.0.0</version>
+	<name>inspired-commons</name>
+	<description>Inspired utility classes</description>
+
+	<organization>
+		<name>Inspired</name>
+		<url>http://www.inspiredsoft.it/</url>
+	</organization>
+	<developers>
+		<developer>
+			<name>Massimo Romano</name>
+			<email>massimo@inspiredsoft.it</email>
+			<organization>Inspired</organization>
+		</developer>
+		<developer>
+			<name>mariano Scardino</name>
+			<email>mariano@inspiredsoft.it</email>
+			<organization>Inspired</organization>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Marco Pirrone</name>
+			<email>marco@inspiredsoft.it</email>
+			<organization>Inspired</organization>
+		</contributor>
+	</contributors>
+
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>20030211.134440</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
