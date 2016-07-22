@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Inspired Model Exporter is a framework to export data from pojo class.
+ * Inspired commons is a set of utility classes.
  * Copyright (C) 2016 Inspired Soft
  * 
  * This program is free software: you can redistribute it and/or modify
