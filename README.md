@@ -1,6 +1,7 @@
 # Inspired Commons Class
 
-This project contains some web useful web component. To use it add the following dependency to your pom.xml
+This project contains some utilities classes. 
+To use it add the following dependency to your pom.xml
 
 ```
 <dependency>
