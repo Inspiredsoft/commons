@@ -10,3 +10,5 @@ To use it add the following dependency to your pom.xml
   <version>1.0.0</version>
 </dependency>
 ```
+
+www.javaboss.it
